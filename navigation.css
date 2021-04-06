@@ -28,10 +28,12 @@ a{
     /* padding-left: 100 px; */
     padding: 0 30px;
     text-decoration: none;
+    color: aliceblue;
 }
 
 a:hover, .active a{
     background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 .image{
@@ -80,13 +82,74 @@ a:hover, .active a{
     text-align: right; /* Right-align text */
     padding-top: 10px; /* Add top padding */
     padding-bottom: 10px; /* Add bottom padding */
-    color: rgb(148, 67, 67); /* White text color */
+    color: rgb(5, 5, 5); /* White text color */
   }
   
-  .html {width: 50%; background-color: #4CAF50;} /* Green */
-  .css {width: 50%; background-color: #4CAF50;} /* Blue */
-  .py {width: 65%; background-color: #4CAF50;} /* Red */
-  .java {width: 60%; background-color: #4CAF50;} /* Dark Grey */
-  .ads {width: 60%; background-color: #4CAF50;} /* Dark Grey */
-      
-    
+  .html {width: 75%; background-color: #4CAF50; animation: html 3s;} /* Green */
+  .css {width: 69%; background-color: #4CAF50; animation: css 3s;} /* Blue */
+  .py {width: 85%; background-color: #4CAF50; animation: py 3s;} /* Red */
+  .java {width: 80%; background-color: #4CAF50; animation: java 3s;} /* Dark Grey */
+  .ads {width: 85%; background-color: #4CAF50; animation: ads 3s;} /* Dark Grey */
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 69%;
+    }
+
+}
+@keyframes py{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+
+}
+@keyframes ads{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+
+}
+.git{
+    margin-left: 25%;
+}
+.linkedin{
+    margin-left: 40%;
+    margin-top: -7.5%;
+}
+.hackerank{
+    margin-left: 55%;
+    margin-top: -8.5%;
+}
+.detail{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.heading{
+    margin-top:10% ;
+}
