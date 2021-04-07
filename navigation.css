@@ -1,3 +1,6 @@
+*{
+    color: aliceblue;
+}
 ul {
     margin-left: 700px;
     list-style: none;
@@ -9,16 +12,22 @@ ul {
     /* text-align: right; */
 }
 body{
-    background-color: rgb(245, 220, 190);
+    /* background-color: rgb(245, 220, 190); */
+    background: url(background.jpg);
+  background-size: cover;
+  padding: 60px 0;
 }
-html{
+/* html{
     border:solid rgb(245, 245, 245);
     border-width: 1.5cm;
     /* border-left: -20000px; */
-}
+/* } */ */
 .navbar{
     background-color: rgb(39, 41, 12);
     
+}
+.navbar2{
+    margin-top: 5.5%;
 }
 li{
     float: left;
@@ -32,7 +41,7 @@ a{
 }
 
 a:hover, .active a{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     color: black;
 }
 
@@ -137,7 +146,12 @@ a:hover, .active a{
 }
 .git{
     margin-left: 25%;
+    
 }
+/* .git:hover .image {
+    opacity: 0.3;
+    background-color: aliceblue;
+  } */
 .linkedin{
     margin-left: 40%;
     margin-top: -7.5%;
