@@ -1,6 +1,10 @@
 *{
     color: aliceblue;
 }
+table, th, td {
+    border: 3px solid rgb(248, 249, 250);
+  }
+  
 ul {
     margin-left: 700px;
     list-style: none;
@@ -31,6 +35,7 @@ body{
 }
 li{
     float: left;
+    font-size: 30px;
 }
 a{
     display: inline-block;
