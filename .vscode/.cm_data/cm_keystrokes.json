@@ -1,0 +1,11 @@
+{
+    "settings.json": [
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Sun Apr 11 2021 12:43:35",
+            "keyStrokeInfo": "{\r\n    \"liveServer.settings.port\": 5501\r\n}",
+            "position": "1,1"
+        }
+    ]
+}
